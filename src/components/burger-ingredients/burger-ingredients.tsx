@@ -68,6 +68,7 @@ export const BurgerIngredients: FC = () => {
       mainsRef={mainsRef}
       saucesRef={saucesRef}
       onTabClick={onTabClick}
+      data-cy='section_ingredients_bun'
     />
   );
 };

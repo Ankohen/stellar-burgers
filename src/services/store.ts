@@ -8,7 +8,7 @@ import {
   orderReducer,
   feedsReducer,
   orderInfoReducer
-} from '@slices';
+} from '../services/slices/index';
 
 import {
   TypedUseSelectorHook,
@@ -16,7 +16,7 @@ import {
   useSelector as selectorHook
 } from 'react-redux';
 
-const rootReducer = combineReducers({
+export const rootReducer = combineReducers({
   ingredients: ingredientsReducer,
 
   feeds: feedsReducer,

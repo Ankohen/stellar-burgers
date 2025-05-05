@@ -1,6 +1,6 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import { TOrder } from '@utils-types';
-import { getOrderByNumberApi } from '@api';
+import { getOrderByNumberApi } from '../../../utils/burger-api';
 
 type TInitialState = {
   isLoading: boolean;

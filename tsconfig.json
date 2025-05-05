@@ -29,6 +29,9 @@
       "./node_modules/@types"
     ],
     "paths": {
+      "@/*": [
+        "src/*"
+      ],
       "@pages": [
         "src/pages"
       ],

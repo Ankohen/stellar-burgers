@@ -10,7 +10,7 @@ import {
   getUserApi,
   TRegisterData,
   updateUserApi
-} from '@api';
+} from '../../../utils/burger-api';
 
 export const REFRESH_TOKEN_JVT = 'refreshToken';
 
